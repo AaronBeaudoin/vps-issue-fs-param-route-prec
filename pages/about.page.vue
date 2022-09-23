@@ -1,0 +1,3 @@
+<template>
+  Minimal project.
+</template>

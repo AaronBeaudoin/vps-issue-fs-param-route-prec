@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "render": "vite build && node preview render",
+    "static": "vite build && node preview static"
+  },
+  "dependencies": {
+    "vite-plugin-ssr": "^0.4.16",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "chalk": "^4.1.2",
+    "express": "^4.18.1",
+    "sirv": "^2.0.2",
+    "vite": "^3.0.4"
+  }
+}
